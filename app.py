@@ -111,7 +111,7 @@ if mode == "Transaction unique":
         "Status opération",
         [
             "En attente",
-            "Validé"
+            "Validé",
             "Échoué"
         ]
     )
