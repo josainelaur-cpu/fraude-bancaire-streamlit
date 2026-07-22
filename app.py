@@ -61,54 +61,131 @@ classes = np.array(
 st.markdown(
     """
     <style>
-    .stApp {
-    background: linear-gradient(
-        135deg,
-        #eaf4ff,
-        #ffffff
-    );
-}
 
-    .main-title {
-        font-size: 45px;
-        font-weight: bold;
-        color: #1f4e79;
-        text-align: center;
-        margin-bottom: 10px;
+    /* Fond général */
+    .stApp {
+        background: linear-gradient(
+            135deg,
+            #0f2027,
+            #203a43,
+            #2c5364
+        );
     }
+
+
+    /* Texte général */
+    .main-title {
+        font-size: 50px;
+        font-weight: 800;
+        color: white;
+        text-align: center;
+        margin-top: 20px;
+        letter-spacing: 1px;
+    }
+
 
     .subtitle {
-        font-size: 20px;
-        color: #555;
+        font-size: 22px;
+        color: #d9eaf7;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
+
+
+    /* Cartes */
     .card {
-        background-color: #f8f9fa;
-        padding: 20px;
-        border-radius: 15px;
-        border: 1px solid #ddd;
+
+        background: rgba(255,255,255,0.12);
+
+        backdrop-filter: blur(10px);
+
+        padding: 25px;
+
+        border-radius: 20px;
+
+        border: 1px solid rgba(255,255,255,0.2);
+
         text-align: center;
-        height: 150px;
+
+        height: 170px;
+
+        box-shadow:
+        0 8px 32px rgba(0,0,0,0.3);
+
     }
+
 
     .card h2 {
-        color: #1f4e79;
+
+        color:#00d4ff;
+
+        font-size:28px;
+
     }
 
-    .section {
-        margin-top: 30px;
-        font-size: 22px;
-        font-weight: bold;
-        color: #1f4e79;
+
+    .card p {
+
+        color:white;
+
+        font-size:16px;
+
     }
+
+
+
+    /* Sections */
+
+    .section {
+
+        margin-top:40px;
+
+        font-size:28px;
+
+        font-weight:bold;
+
+        color:white;
+
+    }
+
+
+
+    /* Boîtes Streamlit */
+
+    .stAlert {
+
+        border-radius:15px;
+
+    }
+
+
+
+    /* Sidebar */
+
+    section[data-testid="stSidebar"] {
+
+        background:
+        linear-gradient(
+        180deg,
+        #0f2027,
+        #203a43
+        );
+
+    }
+
+
+    section[data-testid="stSidebar"] * {
+
+        color:white;
+
+    }
+
 
     </style>
     """,
     unsafe_allow_html=True
 )
-
 
 
 st.markdown(
