@@ -758,3 +758,148 @@ elif mode == "Analyse fichier CSV":
                 "text/csv"
 
             )
+            # =====================================================
+# MODE 3 : DASHBOARD
+# =====================================================
+
+elif mode == "Dashboard":
+
+    st.subheader("📊 Tableau de bord - Analyse des transactions")
+
+
+    fichier = st.file_uploader(
+        "Charger un fichier CSV",
+        type=["csv"]
+    )
+
+
+    if fichier is not None:
+
+
+        df = pd.read_csv(
+            fichier,
+            sep=";"
+        )
+
+
+        st.success(
+            "Données chargées avec succès"
+        )
+
+
+        # ==========================
+        # Indicateurs
+        # ==========================
+
+        total = len(df)
+
+        fraudes = len(
+            df[df["Target"] == "Fraude"]
+        )
+
+        suspects = len(
+            df[df["Target"] == "Suspect"]
+        )
+
+        normales = len(
+            df[df["Target"] == "Normal"]
+        )
+
+
+        col1, col2, col3, col4 = st.columns(4)
+
+
+        col1.metric(
+            "📄 Transactions",
+            total
+        )
+
+
+        col2.metric(
+            "🚨 Fraudes",
+            fraudes
+        )
+
+
+        col3.metric(
+            "⚠️ Suspectes",
+            suspects
+        )
+
+
+        col4.metric(
+            "✅ Normales",
+            normales
+        )
+
+
+        st.divider()
+
+
+        # ==========================
+        # Graphique répartition
+        # ==========================
+
+        fig1 = px.pie(
+            df,
+            names="Target",
+            title="Répartition des transactions"
+        )
+
+
+        st.plotly_chart(
+            fig1,
+            use_container_width=True
+        )
+
+
+
+        # ==========================
+        # Fraudes par ville
+        # ==========================
+
+        fraude_ville = (
+            df[df["Target"]=="Fraude"]
+            ["Localisation"]
+            .value_counts()
+            .reset_index()
+        )
+
+
+        fraude_ville.columns = [
+            "Ville",
+            "Nombre"
+        ]
+
+
+        fig2 = px.bar(
+            fraude_ville,
+            x="Ville",
+            y="Nombre",
+            title="Fraudes par localisation"
+        )
+
+
+        st.plotly_chart(
+            fig2,
+            use_container_width=True
+        )
+
+
+
+        # ==========================
+        # Montant des transactions
+        # ==========================
+
+        fig3 = px.histogram(
+            df,
+            x="Montant",
+            color="Target",
+            title="Distribution des montants"
+        )
+
+
+        st.plotly_chart(
+            fig3,
+            use_container_width=True
+        )
