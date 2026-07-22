@@ -40,9 +40,9 @@ model, scaler, encoders = load_model()
 
 classes = np.array(
     [
-        "Fraude",
         "Normal",
-        "Suspect"
+        "Suspect",
+        "Fraude"
     ]
 )
 
@@ -249,7 +249,7 @@ if mode == "Transaction unique":
         prediction = model.predict(
             data_scaled
         )[0]
-
+        
 
         probabilites = model.predict_proba(
             data_scaled
