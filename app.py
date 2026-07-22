@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 import numpy as np
+import plotly.express as px
 
 
 # ==========================
@@ -277,11 +278,12 @@ st.caption(
 mode = st.sidebar.radio(
     "Mode d'analyse",
     [
+        "Accueil",
         "Transaction unique",
-        "Analyse fichier CSV"
+        "Analyse fichier CSV",
+        "Dashboard"
     ]
 )
-
 
 
 # =====================================================
