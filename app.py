@@ -102,7 +102,7 @@ if mode == "Transaction unique":
             "ATM",
             "Paiement en ligne",
             "Paiement électronique"
-            "echoue"
+            
         ]
     )
 
@@ -112,6 +112,7 @@ if mode == "Transaction unique":
         [
             "En attente",
             "Validé"
+            "Échoué"
         ]
     )
 
