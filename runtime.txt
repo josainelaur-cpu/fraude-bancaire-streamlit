@@ -1,1 +1,1057 @@
 3.11
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\USER> cd fraude-bancaire-streamlit
+cd : Impossible de trouver le chemin d'accès « C:\Users\USER\fraude-bancaire-streamlit », car il n'existe pas.
+Au caractère Ligne:1 : 1
++ cd fraude-bancaire-streamlit
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\USER\fraude-bancaire-streamlit:String) [Set-Location], ItemNot
+   FoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\USER> dir
+
+
+    Répertoire : C:\Users\USER
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        19/06/2026     19:23                .arduinoIDE
+d-----        02/06/2026     19:10                .copilot
+d-----        12/07/2026     16:44                .docker
+d-----        29/06/2026     18:07                .ipynb_checkpoints
+d-----        23/01/2026     18:59                .ipython
+d-----        23/01/2026     18:59                .jupyter
+d-----        06/06/2026     02:02                .matplotlib
+d-----        13/06/2026     13:39                .ms-ad
+d-----        20/07/2026     15:38                .node-red
+d-----        06/06/2026     01:59                .streamlit
+d-----        17/12/2025     00:15                .vscode
+d-----        04/05/2026     02:14                .vscode-shared
+d-----        17/05/2026     00:38                .wdm
+d-r---        13/06/2024     06:50                3D Objects
+d-r---        14/02/2026     23:11                Contacts
+d-r---        12/07/2026     17:07                Desktop
+d-r---        20/07/2026     20:18                Documents
+d-r---        20/07/2026     20:03                Downloads
+d-----        08/06/2026     14:30                env
+d-----        20/01/2026     15:19                ever
+d-r---        14/02/2026     23:11                Favorites
+d-----        29/06/2026     18:09                laureat
+d-----        05/07/2026     01:01                library-management
+d-r---        14/02/2026     23:11                Links
+d-r---        14/02/2026     23:11                Music
+dar--l        20/07/2026     15:09                OneDrive
+d-r---        11/07/2026     12:08                Pictures
+d-r---        14/02/2026     23:11                Saved Games
+d-r---        14/02/2026     23:11                Searches
+d-----        11/05/2026     22:22                Untitled Folder
+d-r---        14/02/2026     23:11                Videos
+-a----        23/01/2026     17:50           1436 .bash_history
+-a----        02/06/2026     19:58             62 .gitconfig
+-a----        10/07/2026     18:25             26 .lesshst
+-a----        02/07/2026     23:42              0 .node_repl_history
+-a----        28/01/2026     12:34            229 .python_history
+-a----        10/07/2026     18:27           2046 .viminfo
+-a----        20/02/2026     15:13          12993 cour.ipynb
+-a----        20/02/2026     15:13           2515 cours.ipynb
+-a----        30/01/2026     18:58              0 cours.txt
+-a----        27/02/2026     22:57          27550 Deuxieme devoir (1).ipynb
+-a----        26/02/2026     23:36          24692 DEVOIRS TD PYTHON.ipynb
+-a----        19/01/2026     22:28              0 divine
+-a----        20/02/2026     15:13           1710 exercice 3.ipynb
+-a----        20/02/2026     15:13           2214 exercice1s.ipynb
+-a----        20/02/2026     15:13           2064 Exercice2.ipynb
+-a----        20/05/2026     20:29           3180 exercice4.ipynb
+-a----        19/01/2026     22:28              0 file
+-a----        20/02/2026     14:01              0 laue
+-a----        20/02/2026     15:13           6272 laureat.ipynb
+-a----        08/06/2026     14:32           1596 requirements.txt
+-a----        27/02/2026     17:55           9578 tp_fichiers (10).ipynb
+-a----        27/02/2026     18:59           7121 tp_fichiers (9).ipynb
+-a----        30/01/2026     19:50           1103 Untitled.ipynb
+-a----        20/02/2026     15:13           3499 Untitled1.ipynb
+-a----        27/05/2026     23:19            617 Untitled10.ipynb
+-a----        29/06/2026     18:08            617 Untitled11.ipynb
+-a----        29/06/2026     18:09            617 Untitled12.ipynb
+-a----        20/02/2026     15:13           3029 Untitled2.ipynb
+-a----        27/02/2026     18:01           5710 Untitled3.ipynb
+-a----        27/02/2026     18:04            617 Untitled4.ipynb
+-a----        27/02/2026     18:58            617 Untitled5.ipynb
+-a----        27/02/2026     18:59            617 Untitled6.ipynb
+-a----        30/03/2026     16:08           1619 Untitled7.ipynb
+-a----        30/03/2026     16:31          11175 Untitled8.ipynb
+-a----        28/05/2026     05:01          27221 Untitled9.ipynb
+-a----        27/02/2026     15:01              0 ventes.txt
+-a----        27/02/2026     14:47            753 ventes.txt.txt
+
+
+PS C:\Users\USER> streamlit run app.py
+Usage: streamlit run [OPTIONS] [TARGET] [ARGS]...
+Try 'streamlit run --help' for help.
+
+Error: Invalid value: File does not exist: app.py
+PS C:\Users\USER> cd Documents
+PS C:\Users\USER\Documents> mkdir fraude-bancaire-streamlit
+
+
+    Répertoire : C:\Users\USER\Documents
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/07/2026     21:53                fraude-bancaire-streamlit
+
+
+PS C:\Users\USER\Documents> cd fraude-bancaire-streamlit
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> pwd
+
+Path
+----
+C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> mkdir model
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/07/2026     21:54                model
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> mkdir data
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/07/2026     21:54                data
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> mkdir notebooks
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/07/2026     21:54                notebooks
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> dir
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/07/2026     21:54                data
+d-----        20/07/2026     21:54                model
+d-----        20/07/2026     21:54                notebooks
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> New-Item app.py
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/07/2026     21:55              0 app.py
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> New-Item train_model.py
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/07/2026     21:55              0 train_model.py
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> New-Item requirements.txt
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/07/2026     21:55              0 requirements.txt
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> code .
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> cd data
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit\data> Bank_transaction_scenario1.csv
+Bank_transaction_scenario1.csv : Le terme «Bank_transaction_scenario1.csv» n'est pas reconnu comme nom d'applet de
+commande, fonction, fichier de script ou programme exécutable. Vérifiez l'orthographe du nom, ou si un chemin d'accès
+existe, vérifiez que le chemin d'accès est correct et réessayez.
+Au caractère Ligne:1 : 1
++ Bank_transaction_scenario1.csv
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Bank_transaction_scenario1.csv:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit\data> pwd
+
+Path
+----
+C:\Users\USER\Documents\fraude-bancaire-streamlit\data
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit\data> dir
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        18/07/2026     21:41         498470 Bank_transaction_scenario1.csv
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit\data> cd ..
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> dir model
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit\model
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/07/2026     22:13          88380 encoder.pkl
+-a----        20/07/2026     22:07       17933857 fraud_model.pkl
+-a----        20/07/2026     22:09           1191 scaler.pkl
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> pip install streamlit pandas numpy scikit-learn joblib matplotlib
+Defaulting to user installation because normal site-packages is not writeable
+Collecting streamlit
+  Downloading streamlit-1.59.2-py3-none-any.whl.metadata (9.6 kB)
+Requirement already satisfied: pandas in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (3.0.3)
+Requirement already satisfied: numpy in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (2.5.1)
+Requirement already satisfied: scikit-learn in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (1.9.0)
+Requirement already satisfied: joblib in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (1.5.3)
+Collecting matplotlib
+  Downloading matplotlib-3.11.1-cp313-cp313-win_amd64.whl.metadata (80 kB)
+Collecting altair!=5.4.0,!=5.4.1,<7,>=4.0 (from streamlit)
+  Downloading altair-6.2.2-py3-none-any.whl.metadata (11 kB)
+Collecting blinker<2,>=1.5.0 (from streamlit)
+  Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting cachetools<8,>=5.5 (from streamlit)
+  Using cached cachetools-7.1.4-py3-none-any.whl.metadata (5.5 kB)
+Collecting click<9,>=7.0 (from streamlit)
+  Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit)
+  Downloading gitpython-3.1.53-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: packaging>=20 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from streamlit) (26.0)
+Collecting pillow<13,>=7.1.0 (from streamlit)
+  Downloading pillow-12.3.0-cp313-cp313-win_amd64.whl.metadata (9.3 kB)
+Collecting pydeck<1,>=0.8.0b4 (from streamlit)
+  Downloading pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting protobuf<8,>=3.20 (from streamlit)
+  Downloading protobuf-7.35.1-cp310-abi3-win_amd64.whl.metadata (595 bytes)
+Collecting pyarrow<25,>=7.0 (from streamlit)
+  Downloading pyarrow-24.0.0-cp313-cp313-win_amd64.whl.metadata (3.0 kB)
+Requirement already satisfied: requests<3,>=2.27 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from streamlit) (2.32.5)
+Collecting tenacity<10,>=8.1.0 (from streamlit)
+  Using cached tenacity-9.1.4-py3-none-any.whl.metadata (1.2 kB)
+Collecting toml<2,>=0.10.1 (from streamlit)
+  Using cached toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: typing-extensions<5,>=4.10.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from streamlit) (4.15.0)
+Collecting starlette>=0.40.0 (from streamlit)
+  Downloading starlette-1.3.1-py3-none-any.whl.metadata (6.4 kB)
+Collecting uvicorn>=0.30.0 (from streamlit)
+  Downloading uvicorn-0.51.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting httptools>=0.6.3 (from streamlit)
+  Downloading httptools-0.8.0-cp313-cp313-win_amd64.whl.metadata (3.7 kB)
+Requirement already satisfied: anyio>=4.0.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from streamlit) (4.12.1)
+Collecting python-multipart>=0.0.10 (from streamlit)
+  Using cached python_multipart-0.0.32-py3-none-any.whl.metadata (2.1 kB)
+Collecting websockets>=12.0.0 (from streamlit)
+  Downloading websockets-16.1.1-cp313-cp313-win_amd64.whl.metadata (7.0 kB)
+Collecting itsdangerous>=2.1.2 (from streamlit)
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting watchdog<7,>=2.1.5 (from streamlit)
+  Using cached watchdog-6.0.0-py3-none-win_amd64.whl.metadata (44 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: tzdata in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from pandas) (2025.3)
+Requirement already satisfied: jinja2 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (3.1.6)
+Requirement already satisfied: jsonschema>=3.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (4.26.0)
+Requirement already satisfied: narwhals>=2.4.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (2.24.0)
+Requirement already satisfied: colorama in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from click<9,>=7.0->streamlit) (0.4.6)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Using cached gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit)
+  Using cached smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from requests<3,>=2.27->streamlit) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from requests<3,>=2.27->streamlit) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from requests<3,>=2.27->streamlit) (2.6.3)
+Requirement already satisfied: certifi>=2017.4.17 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from requests<3,>=2.27->streamlit) (2026.1.4)
+Requirement already satisfied: scipy>=1.10.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from scikit-learn) (1.18.0)
+Requirement already satisfied: threadpoolctl>=3.5.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from scikit-learn) (3.6.0)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.3.3-cp313-cp313-win_amd64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib)
+  Downloading fonttools-4.63.0-cp313-cp313-win_amd64.whl.metadata (121 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Downloading kiwisolver-1.5.0-cp313-cp313-win_amd64.whl.metadata (5.2 kB)
+Collecting pyparsing>=3 (from matplotlib)
+  Using cached pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (3.0.3)
+Requirement already satisfied: attrs>=22.2.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (25.4.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (0.37.0)
+Requirement already satisfied: rpds-py>=0.25.0 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (0.30.0)
+Requirement already satisfied: six>=1.5 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Requirement already satisfied: h11>=0.8 in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (from uvicorn>=0.30.0->streamlit) (0.16.0)
+Downloading streamlit-1.59.2-py3-none-any.whl (10.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.3/10.3 MB 4.0 MB/s  0:00:02
+Downloading altair-6.2.2-py3-none-any.whl (797 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.6/797.6 kB 3.0 MB/s  0:00:00
+Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Using cached cachetools-7.1.4-py3-none-any.whl (16 kB)
+Downloading click-8.4.2-py3-none-any.whl (119 kB)
+Downloading gitpython-3.1.53-py3-none-any.whl (216 kB)
+Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+Downloading pillow-12.3.0-cp313-cp313-win_amd64.whl (7.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.2/7.2 MB 4.2 MB/s  0:00:01
+Downloading protobuf-7.35.1-cp310-abi3-win_amd64.whl (439 kB)
+Downloading pyarrow-24.0.0-cp313-cp313-win_amd64.whl (27.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.3/27.3 MB 3.4 MB/s  0:00:08
+Downloading pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 3.7 MB/s  0:00:03
+Using cached smmap-5.0.3-py3-none-any.whl (24 kB)
+Using cached tenacity-9.1.4-py3-none-any.whl (28 kB)
+Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Using cached watchdog-6.0.0-py3-none-win_amd64.whl (79 kB)
+Downloading matplotlib-3.11.1-cp313-cp313-win_amd64.whl (9.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 4.0 MB/s  0:00:02
+Downloading contourpy-1.3.3-cp313-cp313-win_amd64.whl (226 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.63.0-cp313-cp313-win_amd64.whl (2.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 4.3 MB/s  0:00:00
+Downloading httptools-0.8.0-cp313-cp313-win_amd64.whl (90 kB)
+Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading kiwisolver-1.5.0-cp313-cp313-win_amd64.whl (73 kB)
+Using cached pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Using cached python_multipart-0.0.32-py3-none-any.whl (30 kB)
+Downloading starlette-1.3.1-py3-none-any.whl (73 kB)
+Downloading uvicorn-0.51.0-py3-none-any.whl (73 kB)
+Downloading websockets-16.1.1-cp313-cp313-win_amd64.whl (180 kB)
+Installing collected packages: websockets, watchdog, toml, tenacity, smmap, python-multipart, pyparsing, pyarrow, protobuf, pillow, kiwisolver, itsdangerous, httptools, fonttools, cycler, contourpy, click, cachetools, blinker, uvicorn, starlette, pydeck, matplotlib, gitdb, gitpython, altair, streamlit
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  0/27 [websockets]  WARNING: The script websockets.exe is installed in 'C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━╺━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  1/27 [watchdog]  WARNING: The script watchmedo.exe is installed in 'C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━━━━━━━━ 13/27 [fonttools]  WARNING: The scripts fonttools.exe, pyftmerge.exe, pyftsubset.exe and ttx.exe are installed in 'C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━ 19/27 [uvicorn]  WARNING: The script uvicorn.exe is installed in 'C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸━ 26/27 [streamlit]  WARNING: The script streamlit.exe is installed in 'C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed altair-6.2.2 blinker-1.9.0 cachetools-7.1.4 click-8.4.2 contourpy-1.3.3 cycler-0.12.1 fonttools-4.63.0 gitdb-4.0.12 gitpython-3.1.53 httptools-0.8.0 itsdangerous-2.2.0 kiwisolver-1.5.0 matplotlib-3.11.1 pillow-12.3.0 protobuf-7.35.1 pyarrow-24.0.0 pydeck-0.9.3 pyparsing-3.3.2 python-multipart-0.0.32 smmap-5.0.3 starlette-1.3.1 streamlit-1.59.2 tenacity-9.1.4 toml-0.10.2 uvicorn-0.51.0 watchdog-6.0.0 websockets-16.1.1
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> streamlit run app.py
+2026-07-20 22:19:01.160 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+2026-07-20 22:28:05.007 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\fraude-bancaire-streamlit\app.py", line 2, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> pip install joblib
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: joblib in C:\Users\USER\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages (1.5.3)
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> where python
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> where streamlit
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> cd ..
+PS C:\Users\USER\Documents> cd ..
+PS C:\Users\USER> where streamlit
+PS C:\Users\USER> where python
+PS C:\Users\USER> python
+Python 3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>> exit()
+PS C:\Users\USER> python -m pip install joblib
+C:\Users\USER\AppData\Local\Programs\Python\Python314\python.exe: No module named pip
+PS C:\Users\USER> py -0
+ -V:3.14 *        Python 3.14 (64-bit)
+ -V:3.13          Python 3.13 (Store)
+PS C:\Users\USER> python -m ensurepip --upgrade
+Looking in links: c:\Users\USER\AppData\Local\Temp\tmpz6iu7jss
+Processing .\AppData\Local\Temp\tmpz6iu7jss\pip-26.1.2-py3-none-any.whl
+Installing collected packages: pip
+Successfully installed pip-26.1.2
+PS C:\Users\USER> python -m pip --version
+pip 26.1.2 from C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pip (python 3.14)
+PS C:\Users\USER> python -m pip install streamlit pandas numpy scikit-learn joblib matplotlib
+Requirement already satisfied: streamlit in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (1.58.0)
+Requirement already satisfied: pandas in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (3.0.1)
+Requirement already satisfied: numpy in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (2.4.4)
+Collecting scikit-learn
+  Downloading scikit_learn-1.9.0-cp314-cp314-win_amd64.whl.metadata (11 kB)
+Collecting joblib
+  Using cached joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Requirement already satisfied: matplotlib in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (3.10.9)
+Requirement already satisfied: altair!=5.4.0,!=5.4.1,<7,>=4.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (6.2.1)
+Requirement already satisfied: blinker<2,>=1.5.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (1.9.0)
+Requirement already satisfied: cachetools<8,>=5.5 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (7.1.4)
+Requirement already satisfied: click<9,>=7.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (8.4.1)
+Requirement already satisfied: gitpython!=3.1.19,<4,>=3.0.7 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (3.1.50)
+Requirement already satisfied: packaging>=20 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (26.0)
+Requirement already satisfied: pillow<13,>=7.1.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (12.2.0)
+Requirement already satisfied: pydeck<1,>=0.8.0b4 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (0.9.2)
+Requirement already satisfied: protobuf<8,>=3.20 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (7.35.0)
+Requirement already satisfied: pyarrow>=7.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (24.0.0)
+Requirement already satisfied: requests<3,>=2.27 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (2.32.5)
+Requirement already satisfied: tenacity<10,>=8.1.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (9.1.4)
+Requirement already satisfied: toml<2,>=0.10.1 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (0.10.2)
+Requirement already satisfied: typing-extensions<5,>=4.10.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (4.15.0)
+Requirement already satisfied: starlette>=0.40.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (1.2.1)
+Requirement already satisfied: uvicorn>=0.30.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (0.49.0)
+Requirement already satisfied: httptools>=0.6.3 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (0.8.0)
+Requirement already satisfied: anyio>=4.0.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (4.12.1)
+Requirement already satisfied: python-multipart>=0.0.10 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (0.0.32)
+Requirement already satisfied: websockets>=12.0.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (16.0)
+Requirement already satisfied: itsdangerous>=2.1.2 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (2.2.0)
+Requirement already satisfied: watchdog<7,>=2.1.5 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from streamlit) (6.0.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: tzdata in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from pandas) (2025.3)
+Requirement already satisfied: jinja2 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (3.1.6)
+Requirement already satisfied: jsonschema>=3.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (4.26.0)
+Requirement already satisfied: narwhals>=2.4.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (2.22.1)
+Requirement already satisfied: colorama in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from click<9,>=7.0->streamlit) (0.4.6)
+Requirement already satisfied: gitdb<5,>=4.0.1 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from gitpython!=3.1.19,<4,>=3.0.7->streamlit) (4.0.12)
+Requirement already satisfied: smmap<6,>=3.0.1 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit) (5.0.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from requests<3,>=2.27->streamlit) (3.4.4)
+Requirement already satisfied: idna<4,>=2.5 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from requests<3,>=2.27->streamlit) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from requests<3,>=2.27->streamlit) (2.6.3)
+Requirement already satisfied: certifi>=2017.4.17 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from requests<3,>=2.27->streamlit) (2026.4.22)
+Collecting scipy>=1.10.0 (from scikit-learn)
+  Downloading scipy-1.18.0-cp314-cp314-win_amd64.whl.metadata (61 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn)
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: contourpy>=1.0.1 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from matplotlib) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from matplotlib) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from matplotlib) (4.63.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from matplotlib) (1.5.0)
+Requirement already satisfied: pyparsing>=3 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from matplotlib) (3.3.2)
+Requirement already satisfied: MarkupSafe>=2.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (3.0.3)
+Requirement already satisfied: attrs>=22.2.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (25.4.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (0.37.0)
+Requirement already satisfied: rpds-py>=0.25.0 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit) (0.30.0)
+Requirement already satisfied: six>=1.5 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Requirement already satisfied: h11>=0.8 in .\AppData\Local\Programs\Python\Python314\Lib\site-packages (from uvicorn>=0.30.0->streamlit) (0.16.0)
+Downloading scikit_learn-1.9.0-cp314-cp314-win_amd64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 4.1 MB/s  0:00:02
+Using cached joblib-1.5.3-py3-none-any.whl (309 kB)
+Downloading scipy-1.18.0-cp314-cp314-win_amd64.whl (37.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.3/37.3 MB 3.5 MB/s  0:00:10
+Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Installing collected packages: threadpoolctl, scipy, joblib, scikit-learn
+Successfully installed joblib-1.5.3 scikit-learn-1.9.0 scipy-1.18.0 threadpoolctl-3.6.0
+PS C:\Users\USER> cd Documents
+PS C:\Users\USER\Documents> cd fraude-bancaire-streamlit
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> python -m streamlit run app.py
+2026-07-20 22:38:43.580 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> python -m streamlit run app.py
+2026-07-20 22:41:14.084 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> python -m streamlit run app.py
+2026-07-20 22:58:13.584 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator LabelEncoder from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-07-20 23:01:24.885 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\fraude-bancaire-streamlit\app.py", line 202, in <module>
+    data_scaled = scaler.transform(data)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\preprocessing\_data.py", line 1111, in transform
+    X = validate_data(
+        self,
+    ...<6 lines>...
+        ensure_all_finite="allow-nan",
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\validation.py", line 3013, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\validation.py", line 2865, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names unseen at fit time:
+- Heure
+- Jour
+- Localisation_Bambey
+- Localisation_Bignona
+- Localisation_Bounkiling
+- ...
+Feature names seen at fit time, yet now missing:
+- Date
+- ID Clients
+- Identifiant operation
+- Localisation
+- Numero de compte
+- ...
+
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> python -m streamlit run app.py
+2026-07-20 23:16:26.451 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-07-20 23:17:30.330 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\fraude-bancaire-streamlit\app.py", line 161, in <module>
+    data_scaled = scaler.transform(data)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\_set_output.py", line 319, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\preprocessing\_data.py", line 1111, in transform
+    X = validate_data(
+        self,
+    ...<6 lines>...
+        ensure_all_finite="allow-nan",
+    )
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\validation.py", line 3038, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\validation.py", line 1035, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\_array_api.py", line 976, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\generic.py", line 2039, in __array__
+    arr = np.asarray(values, dtype=dtype)
+ValueError: could not convert string to float: 'ATM'
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> python -m streamlit run app.py
+2026-07-20 23:20:19.763 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-07-20 23:20:33.312 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\dataframe_util.py", line 961, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+  File "pyarrow/table.pxi", line 4768, in pyarrow.lib.Table.from_pandas
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 651, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+              ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 639, in convert_column
+    raise e
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 633, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 390, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 91, in pyarrow.lib._ndarray_to_array
+    check_status(NdarrayToArrow(pool, values, mask, from_pandas,
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: ("Could not convert dtype('int64') with type numpy.dtypes.Int64DType: did not recognize Python value type when inferring an Arrow data type", 'Conversion failed for column 0 with type object')
+2026-07-20 23:34:09.881 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\dataframe_util.py", line 961, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+  File "pyarrow/table.pxi", line 4768, in pyarrow.lib.Table.from_pandas
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 651, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+              ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 639, in convert_column
+    raise e
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 633, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 390, in pyarrow.lib.array
+    result = _ndarray_to_array(values, mask, type, c_from_pandas, safe,
+  File "pyarrow/array.pxi", line 91, in pyarrow.lib._ndarray_to_array
+    check_status(NdarrayToArrow(pool, values, mask, from_pandas,
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: ("Could not convert dtype('int64') with type numpy.dtypes.Int64DType: did not recognize Python value type when inferring an Arrow data type", 'Conversion failed for column 0 with type object')
+2026-07-20 23:34:38.728 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\dataframe_util.py", line 961, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+  File "pyarrow/table.pxi", line 4768, in pyarrow.lib.Table.from_pandas
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 651, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+              ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 639, in convert_column
+    raise e
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 633, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 390, in pyarrow.lib.array
+    result = _ndarray_to_array(values, mask, type, c_from_pandas, safe,
+  File "pyarrow/array.pxi", line 91, in pyarrow.lib._ndarray_to_array
+    check_status(NdarrayToArrow(pool, values, mask, from_pandas,
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: ("Could not convert dtype('int64') with type numpy.dtypes.Int64DType: did not recognize Python value type when inferring an Arrow data type", 'Conversion failed for column 0 with type object')
+2026-07-20 23:35:29.568 Serialization of dataframe to Arrow table was unsuccessful. Applying automatic fixes for column types to make the dataframe Arrow-compatible.
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\dataframe_util.py", line 961, in convert_pandas_df_to_arrow_bytes
+    table = pa.Table.from_pandas(df)
+  File "pyarrow/table.pxi", line 4768, in pyarrow.lib.Table.from_pandas
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 651, in dataframe_to_arrays
+    arrays = [convert_column(c, f)
+              ~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 639, in convert_column
+    raise e
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pyarrow\pandas_compat.py", line 633, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 390, in pyarrow.lib.array
+    result = _ndarray_to_array(values, mask, type, c_from_pandas, safe,
+  File "pyarrow/array.pxi", line 91, in pyarrow.lib._ndarray_to_array
+    check_status(NdarrayToArrow(pool, values, mask, from_pandas,
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowInvalid: ("Could not convert dtype('int64') with type numpy.dtypes.Int64DType: did not recognize Python value type when inferring an Arrow data type", 'Conversion failed for column 0 with type object')
+2026-07-20 23:41:42.418 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\fraude-bancaire-streamlit\app.py", line 186, in <module>
+    classes = encoders["Target"].classes_
+              ~~~~~~~~^^^^^^^^^^
+KeyError: 'Target'
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> streamlit run app.py
+2026-07-20 23:48:59.882 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> streamlit run app.py
+2026-07-20 23:54:49.266 Uvicorn server started on 0.0.0.0:8501
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.2:8501
+
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+2026-07-20 23:56:05.663 Uncaught app execution
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\indexes\base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'ID Clients'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\streamlit\runtime\scriptrunner\script_runner.py", line 789, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Documents\fraude-bancaire-streamlit\app.py", line 347, in <module>
+    "ID Clients":[ligne["ID Clients"]],
+                  ~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\series.py", line 959, in __getitem__
+    return self._get_value(key)
+           ~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\series.py", line 1046, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\pandas\core\indexes\base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: 'ID Clients'
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator DecisionTreeClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator RandomForestClassifier from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+C:\Users\USER\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py:525: InconsistentVersionWarning: Trying to unpickle estimator StandardScaler from version 1.6.1 when using version 1.9.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+  Stopping...
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> dir
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21/07/2026     00:22                .gitignore
+d-----        20/07/2026     22:02                data
+d-----        20/07/2026     23:14                model
+d-----        20/07/2026     21:54                notebooks
+d-----        21/07/2026     00:22                README.md
+-a----        21/07/2026     00:03           8777 app.py
+-a----        21/07/2026     00:25            102 requirements.txt
+-a----        20/07/2026     21:55              0 train_model.py
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> dir model
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit\model
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        20/07/2026     23:14              5 encoders.pkl
+-a----        20/07/2026     22:07       17933857 fraud_model.pkl
+-a----        20/07/2026     22:09           1191 scaler.pkl
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> dir data
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit\data
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        18/07/2026     21:41         498470 Bank_transaction_scenario1.csv
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git init
+Initialized empty Git repository in C:/Users/USER/Documents/fraude-bancaire-streamlit/.git/
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git add .
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore/.gitignore
+        new file:   README.md/README.md
+        new file:   app.py
+        new file:   data/Bank_transaction_scenario1.csv
+        new file:   model/encoders.pkl
+        new file:   model/fraud_model.pkl
+        new file:   model/scaler.pkl
+        new file:   requirements.txt
+        new file:   train_model.py
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git commit -m "Version initiale - application détection de fraude"
+
+[master (root-commit) a885a87] Version initiale - application détection de fraude
+ 9 files changed, 5907 insertions(+)
+ create mode 100644 .gitignore/.gitignore
+ create mode 100644 README.md/README.md
+ create mode 100644 app.py
+ create mode 100644 data/Bank_transaction_scenario1.csv
+ create mode 100644 model/encoders.pkl
+ create mode 100644 model/fraud_model.pkl
+ create mode 100644 model/scaler.pkl
+ create mode 100644 requirements.txt
+ create mode 100644 train_model.py
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git init
+Reinitialized existing Git repository in C:/Users/USER/Documents/fraude-bancaire-streamlit/.git/
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> Remove-Item -Recurse -Force .gitignore
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> Remove-Item -Recurse -Force README.md
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> dir
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/07/2026     22:02                data
+d-----        21/07/2026     00:43                model
+d-----        20/07/2026     21:54                notebooks
+-a----        21/07/2026     00:44             70 .gitignore
+-a----        21/07/2026     00:03           8777 app.py
+-a----        21/07/2026     00:41              0 README.md
+-a----        21/07/2026     00:25            102 requirements.txt
+-a----        20/07/2026     21:55              0 train_model.py
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git add .
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git commit -m "Correction structure projet"
+[master 70babc3] Correction structure projet
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ rename .gitignore/.gitignore => .gitignore (100%)
+ rename README.md/README.md => README.md (100%)
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git status
+On branch master
+nothing to commit, working tree clean
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git branch -M main
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git remote add origin https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git push -u origin main
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (16/16), 4.32 MiB | 799.00 KiB/s, done.
+Total 16 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git add runtime.txt
+fatal: pathspec 'runtime.txt' did not match any files
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git commit -m "Fix Python version for Streamlit Cloud"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git push
+To https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git pull origin main --rebase
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 935 bytes | 30.00 KiB/s, done.
+From https://github.com/josainelaur-cpu/fraude-bancaire-streamlit
+ * branch            main       -> FETCH_HEAD
+   70babc3..ebc6996  main       -> origin/main
+Updating 70babc3..ebc6996
+Fast-forward
+ runtime.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 runtime.txt
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git push
+Everything up-to-date
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> dir
+
+
+    Répertoire : C:\Users\USER\Documents\fraude-bancaire-streamlit
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        20/07/2026     22:02                data
+d-----        21/07/2026     00:43                model
+d-----        20/07/2026     21:54                notebooks
+-a----        21/07/2026     00:44             70 .gitignore
+-a----        21/07/2026     00:03           8777 app.py
+-a----        21/07/2026     00:41              0 README.md
+-a----        21/07/2026     00:25            102 requirements.txt
+-a----        21/07/2026     01:27             13 runtime.txt
+-a----        20/07/2026     21:55              0 train_model.py
+
+
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> type runtime.txt
+python-3.11
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> notepad runtime.txt
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> notepad runtime.txt
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> type runtime.txt
+3.11
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git add runtime.txt
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git commit -m "Fix Python version"
+[main 149dd9a] Fix Python version
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git
+   ebc6996..149dd9a  main -> main
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> type requirements.txt
+streamlit==1.59.2
+pandas==2.3.1
+numpy==2.3.2
+scikit-learn==1.7.1
+joblib==1.5.2
+matplotlib==3.10.6
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> python -c "import sklearn; print(sklearn.__version__)"
+1.9.0
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git add requirements.txt
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git commit -m "Update scikit-learn version for model compatibility"
+[main c8eb758] Update scikit-learn version for model compatibility
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git
+   149dd9a..c8eb758  main -> main
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git add requirements.txt
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git commit -m "Fix dependencies for Streamlit Cloud"
+[main 72a8723] Fix dependencies for Streamlit Cloud
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 329 bytes | 329.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git
+   c8eb758..72a8723  main -> main
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> ^C
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git add README.md
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git commit -m "Ajout du lien de déploiement Streamlit dans le README"
+[main 6b1805d] Ajout du lien de déploiement Streamlit dans le README
+ 1 file changed, 4 insertions(+)
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 425 bytes | 425.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/josainelaur-cpu/fraude-bancaire-streamlit.git
+   72a8723..6b1805d  main -> main
+PS C:\Users\USER\Documents\fraude-bancaire-streamlit>

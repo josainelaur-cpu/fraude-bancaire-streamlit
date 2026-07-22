@@ -52,10 +52,220 @@ classes = np.array(
 # Interface
 # ==========================
 
-st.title("🏦 Système IA de Détection de Fraude Bancaire")
+# ==========================
+# PAGE D'ACCUEIL PROFESSIONNELLE
+# ==========================
 
 st.markdown(
-    "Analysez une transaction bancaire et estimez le risque de fraude."
+    """
+    <style>
+
+    .main-title {
+        font-size: 45px;
+        font-weight: bold;
+        color: #1f4e79;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        color: #555;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .card {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+        height: 150px;
+    }
+
+    .card h2 {
+        color: #1f4e79;
+    }
+
+    .section {
+        margin-top: 30px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #1f4e79;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+st.markdown(
+    """
+    <div class="main-title">
+    🏦 Système Intelligent de Détection de Fraude Bancaire
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+st.markdown(
+    """
+    <div class="subtitle">
+    Application basée sur l'intelligence artificielle permettant
+    d'analyser les transactions bancaires et d'identifier
+    automatiquement les comportements suspects.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+# ==========================
+# Cartes statistiques
+# ==========================
+
+col1, col2, col3 = st.columns(3)
+
+
+with col1:
+
+    st.markdown(
+        """
+        <div class="card">
+        <h2>🤖 IA</h2>
+        <p>Modèle Machine Learning<br>
+        pour la détection automatique</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+with col2:
+
+    st.markdown(
+        """
+        <div class="card">
+        <h2>📊 Analyse</h2>
+        <p>Transactions individuelles<br>
+        ou fichiers CSV complets</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+with col3:
+
+    st.markdown(
+        """
+        <div class="card">
+        <h2>🚨 Sécurité</h2>
+        <p>Identification des fraudes<br>
+        et transactions suspectes</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
+
+# ==========================
+# Présentation projet
+# ==========================
+
+st.markdown(
+    """
+    <div class="section">
+    🎯 Objectif du projet
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+st.write(
+"""
+Ce système permet aux institutions financières de réduire les risques
+liés aux transactions frauduleuses grâce à un modèle prédictif capable
+de classer une opération en trois catégories :
+
+- ✅ Transaction normale
+- ⚠️ Transaction suspecte
+- 🚨 Fraude détectée
+
+L'application propose deux modes d'utilisation :
+"""
+)
+
+
+
+col1, col2 = st.columns(2)
+
+
+with col1:
+
+    st.info(
+        """
+        ### 🔎 Analyse individuelle
+        
+        Saisie manuelle d'une transaction :
+        
+        - Montant
+        - Type de transaction
+        - Statut opération
+        - Localisation
+        
+        Résultat instantané avec probabilité.
+        """
+    )
+
+
+with col2:
+
+    st.info(
+        """
+        ### 📂 Analyse en masse
+        
+        Import d'un fichier CSV contenant
+        plusieurs transactions.
+
+        Génération automatique d'un rapport
+        des prédictions.
+        """
+    )
+
+
+
+# ==========================
+# Technologies
+# ==========================
+
+st.markdown(
+    """
+    <div class="section">
+    🛠️ Technologies utilisées
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+st.success(
+"""
+Python | Streamlit | Pandas | Scikit-Learn | Machine Learning | GitHub
+"""
+)
+
+
+st.caption(
+"Projet Intelligence Artificielle - Détection de Fraude Bancaire"
 )
 
 
