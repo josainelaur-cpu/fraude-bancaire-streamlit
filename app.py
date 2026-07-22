@@ -61,6 +61,13 @@ classes = np.array(
 st.markdown(
     """
     <style>
+    .stApp {
+    background: linear-gradient(
+        135deg,
+        #eaf4ff,
+        #ffffff
+    );
+}
 
     .main-title {
         font-size: 45px;
