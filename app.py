@@ -102,6 +102,7 @@ if mode == "Transaction unique":
             "ATM",
             "Paiement en ligne",
             "Paiement électronique"
+            "echoue"
         ]
     )
 
@@ -116,16 +117,54 @@ if mode == "Transaction unique":
 
 
     localisation = st.selectbox(
-        "Localisation",
-        [
-            "Dakar",
-            "Thiès",
-            "Touba",
-            "Saint-Louis",
-            "Kaolack"
-        ]
-    )
-
+    "Localisation",
+    [
+        "Bambey",
+        "Bignona",
+        "Bounkiling",
+        "Cap Skirring",
+        "Dagana",
+        "Dahra",
+        "Dakar",
+        "Diamniadio",
+        "Diourbel",
+        "Fatick",
+        "Foundiougne",
+        "Gossas",
+        "Goudiry",
+        "Guinguinéo",
+        "Guédiawaye",
+        "Hann",
+        "Kaffrine",
+        "Kanel",
+        "Kaolack",
+        "Kolda",
+        "Kédougou",
+        "Linguère",
+        "Louga",
+        "Matam",
+        "Mbacké",
+        "Mbour",
+        "Nioro",
+        "Oussouye",
+        "Pikine",
+        "Podor",
+        "Ranérou",
+        "Richard Toll",
+        "Rufisque",
+        "Saint Louis",
+        "Saint-Louis",
+        "Saloum",
+        "Sédhiou",
+        "Tambacounda",
+        "Thiès",
+        "Tivaouane",
+        "Touba",
+        "Toubacouta",
+        "Vélingara",
+        "Ziguinchor"
+    ]
+)
 
 
     if st.button("🚨 Analyser"):
