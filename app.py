@@ -57,135 +57,125 @@ classes = np.array(
 # ==========================
 # PAGE D'ACCUEIL PROFESSIONNELLE
 # ==========================
+st.markdown("""
+<style>
 
-st.markdown(
-    """
-    <style>
+/* Fond général */
+.stApp{
+    background-color:#f5f5f5;
+}
 
-    /* Fond général */
-    .stApp {
-        background: linear-gradient(
-            135deg,
-            #0f2027,
-            #203a43,
-            #2c5364
-        );
-    }
+/* Grand titre */
+.main-title{
+    font-size:48px;
+    font-weight:800;
+    color:#C8102E;
+    text-align:center;
+    margin-top:20px;
+}
 
+/* Sous-titre */
+.subtitle{
+    font-size:20px;
+    color:#444444;
+    text-align:center;
+    margin-bottom:40px;
+}
 
-    /* Texte général */
-    .main-title {
-        font-size: 50px;
-        font-weight: 800;
-        color: white;
-        text-align: center;
-        margin-top: 20px;
-        letter-spacing: 1px;
-    }
+/* Cartes */
+.card{
 
+    background:white;
 
-    .subtitle {
-        font-size: 22px;
-        color: #d9eaf7;
-        text-align: center;
-        margin-bottom: 40px;
-    }
+    border-radius:18px;
 
+    padding:25px;
 
+    border-left:6px solid #C8102E;
 
-    /* Cartes */
-    .card {
+    box-shadow:0px 6px 20px rgba(0,0,0,0.12);
 
-        background: rgba(255,255,255,0.12);
+    text-align:center;
 
-        backdrop-filter: blur(10px);
+    height:170px;
 
-        padding: 25px;
+}
 
-        border-radius: 20px;
+/* Titre carte */
+.card h2{
+    color:#C8102E;
+}
 
-        border: 1px solid rgba(255,255,255,0.2);
+/* Texte carte */
+.card p{
+    color:#444;
+}
 
-        text-align: center;
+/* Sections */
+.section{
+    color:#C8102E;
+    font-size:28px;
+    font-weight:bold;
+    margin-top:40px;
+}
 
-        height: 170px;
+/* Sidebar */
+section[data-testid="stSidebar"]{
 
-        box-shadow:
-        0 8px 32px rgba(0,0,0,0.3);
+    background:#C8102E;
 
-    }
+}
 
+section[data-testid="stSidebar"] *{
 
-    .card h2 {
+    color:white;
 
-        color:#00d4ff;
+}
 
-        font-size:28px;
+/* Boutons */
+.stButton>button{
 
-    }
+    background:#C8102E;
 
+    color:white;
 
-    .card p {
+    border-radius:10px;
 
-        color:white;
+    border:none;
 
-        font-size:16px;
+    font-weight:bold;
 
-    }
+}
 
+.stButton>button:hover{
 
+    background:#A20D25;
 
-    /* Sections */
+}
 
-    .section {
+/* Métriques */
+[data-testid="metric-container"]{
 
-        margin-top:40px;
+    background:white;
 
-        font-size:28px;
+    border-radius:12px;
 
-        font-weight:bold;
+    padding:15px;
 
-        color:white;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.08);
 
-    }
+}
 
+/* Tableaux */
+[data-testid="stDataFrame"]{
 
+    border-radius:12px;
 
-    /* Boîtes Streamlit */
+}
 
-    .stAlert {
+</style>
+""", unsafe_allow_html=True)
 
-        border-radius:15px;
-
-    }
-
-
-
-    /* Sidebar */
-
-    section[data-testid="stSidebar"] {
-
-        background:
-        linear-gradient(
-        180deg,
-        #0f2027,
-        #203a43
-        );
-
-    }
-
-
-    section[data-testid="stSidebar"] * {
-
-        color:white;
-
-    }
-
-
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 st.markdown(
@@ -209,6 +199,33 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+st.markdown("""
+<div style="
+background: linear-gradient(90deg,#C8102E,#8B0000);
+padding:35px;
+border-radius:18px;
+margin-bottom:30px;
+box-shadow:0 8px 20px rgba(0,0,0,0.15);
+">
+
+<h1 style="color:white;text-align:center;">
+🛡️ Plateforme Intelligente de Détection de Fraude Bancaire
+</h1>
+
+<p style="color:white;font-size:20px;text-align:center;">
+Analysez automatiquement les transactions bancaires grâce à
+l'Intelligence Artificielle afin de détecter les fraudes,
+les comportements suspects et d'améliorer la sécurité financière.
+</p>
+
+</div>
+""", unsafe_allow_html=True)
+col1, col2, col3, col4 = st.columns(4)
+
+col1.metric("🤖 Modèle IA", "Random Forest")
+col2.metric("📂 Dataset", "5 382")
+col3.metric("🎯 Classes", "3")
+col4.metric("🌍 Pays", "Sénégal")
 
 
 
